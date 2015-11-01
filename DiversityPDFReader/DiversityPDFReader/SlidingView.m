@@ -56,6 +56,7 @@
         //[self addSubview:self.progressView];
         
         self.progressLabel = [[UILabel alloc] initWithFrame:CGRectMake(self.bounds.size.width/2 + 150, 100, 40, 20)];
+        self.progressLabel.font = [self.progressLabel.font fontWithSize:16];
         [self addSubview:self.progressLabel];
         
     }
@@ -71,7 +72,7 @@
         self.score = manager.score;
       //  self.progressLabel.text = [NSString stringWithFormat:@"%f",manager.score];
         self.progressLabel.hidden = NO;
-        self.progressLabel.text = [[NSString stringWithFormat:@"%d",95] stringByAppendingString:@"%"];
+        self.progressLabel.text = [[NSString stringWithFormat:@"%d",96] stringByAppendingString:@"%"];
     }
 
 }

@@ -361,12 +361,14 @@
 			baseConfigurationReference = 69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DiversityPDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.Derek316x.DiversityPDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,12 +380,14 @@
 			baseConfigurationReference = 69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DiversityPDFReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.Derek316x.DiversityPDFReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
