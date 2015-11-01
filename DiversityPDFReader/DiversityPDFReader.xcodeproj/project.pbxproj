@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		698B043D1BE6657400FA6B4D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698B043C1BE6657400FA6B4D /* AudioToolbox.framework */; };
+		698B043F1BE6658600FA6B4D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698B043E1BE6658600FA6B4D /* SystemConfiguration.framework */; };
+		698B04411BE6691700FA6B4D /* SpeechKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698B04401BE6691700FA6B4D /* SpeechKit.framework */; };
+		69ADDAC11BE50F2000A886F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ADDAC01BE50F2000A886F2 /* main.m */; };
+		69ADDAC41BE50F2000A886F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ADDAC31BE50F2000A886F2 /* AppDelegate.m */; };
+		69ADDACA1BE50F2000A886F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDAC81BE50F2000A886F2 /* Main.storyboard */; };
+		69ADDACC1BE50F2000A886F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDACB1BE50F2000A886F2 /* Assets.xcassets */; };
+		69ADDACF1BE50F2100A886F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDACD1BE50F2100A886F2 /* LaunchScreen.storyboard */; };
+		69ADDADC1BE50F6F00A886F2 /* FastPdfKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69ADDAD71BE50F6F00A886F2 /* FastPdfKit.framework */; };
+		69ADDADD1BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */; };
+		69ADDADE1BE50F6F00A886F2 /* FPKReaderBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDADA1BE50F6F00A886F2 /* FPKReaderBundle.bundle */; };
+		69ADDADF1BE50F6F00A886F2 /* Snippets.txt in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDADB1BE50F6F00A886F2 /* Snippets.txt */; };
+		69ADDAE21BE5109200A886F2 /* MFDocumentManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ADDAE11BE5109200A886F2 /* MFDocumentManagerViewController.m */; };
+		69ADDAE41BE5136500A886F2 /* ObjectiveC.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDAE31BE5136500A886F2 /* ObjectiveC.pdf */; };
+		69ADDAE71BE518FE00A886F2 /* SlidingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ADDAE61BE518FE00A886F2 /* SlidingView.m */; };
+		69ADDAED1BE51C5400A886F2 /* C4QReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69ADDAEC1BE51C5400A886F2 /* C4QReaderViewController.m */; };
+		69ADDAF11BE5660E00A886F2 /* Swift_Algorithms.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 69ADDAF01BE5660E00A886F2 /* Swift_Algorithms.pdf */; };
+		69B750C51BE6B22E0027C1E1 /* M13ProgressViewRing.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B750C41BE6B22E0027C1E1 /* M13ProgressViewRing.m */; };
+		69B750C81BE6B23A0027C1E1 /* M13ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B750C71BE6B23A0027C1E1 /* M13ProgressView.m */; };
+		69B750CB1BE6B7600027C1E1 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B750CA1BE6B7600027C1E1 /* ScoreManager.m */; };
+		69EF5D041BE69CF400A0B437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EF5D031BE69CF400A0B437 /* Foundation.framework */; };
+		69EF5D061BE69CFA00A0B437 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EF5D051BE69CFA00A0B437 /* UIKit.framework */; };
+		69EF5D081BE69D0500A0B437 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69EF5D071BE69D0500A0B437 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		698B043C1BE6657400FA6B4D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		698B043E1BE6658600FA6B4D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		698B04401BE6691700FA6B4D /* SpeechKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpeechKit.framework; sourceTree = "<group>"; };
+		69ADDABC1BE50F2000A886F2 /* DiversityPDFReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiversityPDFReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69ADDAC01BE50F2000A886F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69ADDAC21BE50F2000A886F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		69ADDAC31BE50F2000A886F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		69ADDAC91BE50F2000A886F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69ADDACB1BE50F2000A886F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69ADDACE1BE50F2100A886F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		69ADDAD01BE50F2100A886F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69ADDAD71BE50F6F00A886F2 /* FastPdfKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FastPdfKit.framework; sourceTree = "<group>"; };
+		69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = FastPdfKitFramework.xcconfig; sourceTree = "<group>"; };
+		69ADDADA1BE50F6F00A886F2 /* FPKReaderBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FPKReaderBundle.bundle; sourceTree = "<group>"; };
+		69ADDADB1BE50F6F00A886F2 /* Snippets.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Snippets.txt; sourceTree = "<group>"; };
+		69ADDAE01BE5109200A886F2 /* MFDocumentManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDocumentManagerViewController.h; sourceTree = "<group>"; };
+		69ADDAE11BE5109200A886F2 /* MFDocumentManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDocumentManagerViewController.m; sourceTree = "<group>"; };
+		69ADDAE31BE5136500A886F2 /* ObjectiveC.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ObjectiveC.pdf; sourceTree = "<group>"; };
+		69ADDAE51BE518FE00A886F2 /* SlidingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingView.h; sourceTree = "<group>"; };
+		69ADDAE61BE518FE00A886F2 /* SlidingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidingView.m; sourceTree = "<group>"; };
+		69ADDAEB1BE51C5400A886F2 /* C4QReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C4QReaderViewController.h; sourceTree = "<group>"; };
+		69ADDAEC1BE51C5400A886F2 /* C4QReaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C4QReaderViewController.m; sourceTree = "<group>"; };
+		69ADDAEF1BE54CE100A886F2 /* SlidingViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidingViewDelegate.h; sourceTree = "<group>"; };
+		69ADDAF01BE5660E00A886F2 /* Swift_Algorithms.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Swift_Algorithms.pdf; sourceTree = "<group>"; };
+		69B750C31BE6B22E0027C1E1 /* M13ProgressViewRing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressViewRing.h; sourceTree = "<group>"; };
+		69B750C41BE6B22E0027C1E1 /* M13ProgressViewRing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressViewRing.m; sourceTree = "<group>"; };
+		69B750C61BE6B23A0027C1E1 /* M13ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M13ProgressView.h; sourceTree = "<group>"; };
+		69B750C71BE6B23A0027C1E1 /* M13ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M13ProgressView.m; sourceTree = "<group>"; };
+		69B750C91BE6B7600027C1E1 /* ScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreManager.h; sourceTree = "<group>"; };
+		69B750CA1BE6B7600027C1E1 /* ScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScoreManager.m; sourceTree = "<group>"; };
+		69EF5D031BE69CF400A0B437 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69EF5D051BE69CFA00A0B437 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69EF5D071BE69D0500A0B437 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69ADDAB91BE50F2000A886F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69EF5D081BE69D0500A0B437 /* CoreGraphics.framework in Frameworks */,
+				69EF5D061BE69CFA00A0B437 /* UIKit.framework in Frameworks */,
+				69EF5D041BE69CF400A0B437 /* Foundation.framework in Frameworks */,
+				698B043F1BE6658600FA6B4D /* SystemConfiguration.framework in Frameworks */,
+				698B04411BE6691700FA6B4D /* SpeechKit.framework in Frameworks */,
+				698B043D1BE6657400FA6B4D /* AudioToolbox.framework in Frameworks */,
+				69ADDADC1BE50F6F00A886F2 /* FastPdfKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69ADDAB31BE50F2000A886F2 = {
+			isa = PBXGroup;
+			children = (
+				69EF5D071BE69D0500A0B437 /* CoreGraphics.framework */,
+				69EF5D051BE69CFA00A0B437 /* UIKit.framework */,
+				69EF5D031BE69CF400A0B437 /* Foundation.framework */,
+				698B043E1BE6658600FA6B4D /* SystemConfiguration.framework */,
+				698B04401BE6691700FA6B4D /* SpeechKit.framework */,
+				698B043C1BE6657400FA6B4D /* AudioToolbox.framework */,
+				69ADDABE1BE50F2000A886F2 /* DiversityPDFReader */,
+				69ADDABD1BE50F2000A886F2 /* Products */,
+				69ADDAD61BE50F6F00A886F2 /* FastPdfKit.embeddedframework */,
+			);
+			sourceTree = "<group>";
+		};
+		69ADDABD1BE50F2000A886F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69ADDABC1BE50F2000A886F2 /* DiversityPDFReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69ADDABE1BE50F2000A886F2 /* DiversityPDFReader */ = {
+			isa = PBXGroup;
+			children = (
+				69B750C61BE6B23A0027C1E1 /* M13ProgressView.h */,
+				69B750C71BE6B23A0027C1E1 /* M13ProgressView.m */,
+				69B750C31BE6B22E0027C1E1 /* M13ProgressViewRing.h */,
+				69B750C41BE6B22E0027C1E1 /* M13ProgressViewRing.m */,
+				69ADDAC21BE50F2000A886F2 /* AppDelegate.h */,
+				69ADDAC31BE50F2000A886F2 /* AppDelegate.m */,
+				69B750C91BE6B7600027C1E1 /* ScoreManager.h */,
+				69B750CA1BE6B7600027C1E1 /* ScoreManager.m */,
+				69ADDAE01BE5109200A886F2 /* MFDocumentManagerViewController.h */,
+				69ADDAE11BE5109200A886F2 /* MFDocumentManagerViewController.m */,
+				69ADDAEB1BE51C5400A886F2 /* C4QReaderViewController.h */,
+				69ADDAEC1BE51C5400A886F2 /* C4QReaderViewController.m */,
+				69ADDAE51BE518FE00A886F2 /* SlidingView.h */,
+				69ADDAE61BE518FE00A886F2 /* SlidingView.m */,
+				69ADDAEF1BE54CE100A886F2 /* SlidingViewDelegate.h */,
+				69ADDAC81BE50F2000A886F2 /* Main.storyboard */,
+				69ADDACB1BE50F2000A886F2 /* Assets.xcassets */,
+				69ADDACD1BE50F2100A886F2 /* LaunchScreen.storyboard */,
+				69ADDAD01BE50F2100A886F2 /* Info.plist */,
+				69ADDABF1BE50F2000A886F2 /* Supporting Files */,
+			);
+			path = DiversityPDFReader;
+			sourceTree = "<group>";
+		};
+		69ADDABF1BE50F2000A886F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69ADDAE31BE5136500A886F2 /* ObjectiveC.pdf */,
+				69ADDAF01BE5660E00A886F2 /* Swift_Algorithms.pdf */,
+				69ADDAC01BE50F2000A886F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69ADDAD61BE50F6F00A886F2 /* FastPdfKit.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				69ADDAD71BE50F6F00A886F2 /* FastPdfKit.framework */,
+				69ADDAD81BE50F6F00A886F2 /* Resources */,
+			);
+			path = FastPdfKit.embeddedframework;
+			sourceTree = "<group>";
+		};
+		69ADDAD81BE50F6F00A886F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */,
+				69ADDADA1BE50F6F00A886F2 /* FPKReaderBundle.bundle */,
+				69ADDADB1BE50F6F00A886F2 /* Snippets.txt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69ADDABB1BE50F2000A886F2 /* DiversityPDFReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69ADDAD31BE50F2100A886F2 /* Build configuration list for PBXNativeTarget "DiversityPDFReader" */;
+			buildPhases = (
+				69ADDAB81BE50F2000A886F2 /* Sources */,
+				69ADDAB91BE50F2000A886F2 /* Frameworks */,
+				69ADDABA1BE50F2000A886F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiversityPDFReader;
+			productName = DiversityPDFReader;
+			productReference = 69ADDABC1BE50F2000A886F2 /* DiversityPDFReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69ADDAB41BE50F2000A886F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = dereknetto;
+				TargetAttributes = {
+					69ADDABB1BE50F2000A886F2 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = D89RJC2KAA;
+					};
+				};
+			};
+			buildConfigurationList = 69ADDAB71BE50F2000A886F2 /* Build configuration list for PBXProject "DiversityPDFReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69ADDAB31BE50F2000A886F2;
+			productRefGroup = 69ADDABD1BE50F2000A886F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69ADDABB1BE50F2000A886F2 /* DiversityPDFReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69ADDABA1BE50F2000A886F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ADDADF1BE50F6F00A886F2 /* Snippets.txt in Resources */,
+				69ADDACF1BE50F2100A886F2 /* LaunchScreen.storyboard in Resources */,
+				69ADDAF11BE5660E00A886F2 /* Swift_Algorithms.pdf in Resources */,
+				69ADDADD1BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig in Resources */,
+				69ADDACC1BE50F2000A886F2 /* Assets.xcassets in Resources */,
+				69ADDADE1BE50F6F00A886F2 /* FPKReaderBundle.bundle in Resources */,
+				69ADDAE41BE5136500A886F2 /* ObjectiveC.pdf in Resources */,
+				69ADDACA1BE50F2000A886F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69ADDAB81BE50F2000A886F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69B750CB1BE6B7600027C1E1 /* ScoreManager.m in Sources */,
+				69B750C81BE6B23A0027C1E1 /* M13ProgressView.m in Sources */,
+				69ADDAE71BE518FE00A886F2 /* SlidingView.m in Sources */,
+				69ADDAE21BE5109200A886F2 /* MFDocumentManagerViewController.m in Sources */,
+				69ADDAED1BE51C5400A886F2 /* C4QReaderViewController.m in Sources */,
+				69B750C51BE6B22E0027C1E1 /* M13ProgressViewRing.m in Sources */,
+				69ADDAC41BE50F2000A886F2 /* AppDelegate.m in Sources */,
+				69ADDAC11BE50F2000A886F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		69ADDAC81BE50F2000A886F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69ADDAC91BE50F2000A886F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69ADDACD1BE50F2100A886F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69ADDACE1BE50F2100A886F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69ADDAD11BE50F2100A886F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69ADDAD21BE50F2100A886F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69ADDAD41BE50F2100A886F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DiversityPDFReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.Derek316x.DiversityPDFReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		69ADDAD51BE50F2100A886F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69ADDAD91BE50F6F00A886F2 /* FastPdfKitFramework.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FastPdfKit.embeddedframework",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = DiversityPDFReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.Derek316x.DiversityPDFReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69ADDAB71BE50F2000A886F2 /* Build configuration list for PBXProject "DiversityPDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69ADDAD11BE50F2100A886F2 /* Debug */,
+				69ADDAD21BE50F2100A886F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69ADDAD31BE50F2100A886F2 /* Build configuration list for PBXNativeTarget "DiversityPDFReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69ADDAD41BE50F2100A886F2 /* Debug */,
+				69ADDAD51BE50F2100A886F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69ADDAB41BE50F2000A886F2 /* Project object */;
+}
